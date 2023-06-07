@@ -71,3 +71,14 @@ header {
     display: none;
   }
 }
+@media screen and (max-width: 500px){
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 17rem;
+  height: 17rem;
+  position: absolute;
+  left: calc(50% - 8.5rem);
+  border-radius: 12rem 11rem 0 0;
+  overflow: hidden;
+}
+}

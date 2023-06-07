@@ -131,14 +131,14 @@ img {
 
 /*MOBILES*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .container {
     width: var(--container-width-sm);
   }
   section {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
   section > h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
 }
